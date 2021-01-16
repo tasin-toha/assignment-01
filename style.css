@@ -1,0 +1,132 @@
+body {
+  font-family: "Bebas Neue", cursive;
+  margin: 0;
+  color: #363958;
+}
+nav {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background-color: white;
+}
+a {
+  font-family: "Roboto", sans-serif;
+  font-weight: 800;
+  font-size: 16px;
+  color: #3c3c3c;
+  text-decoration: none;
+}
+header {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+.nav_link {
+  list-style: none;
+}
+.nav_link li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+/* main body */
+
+h1 {
+  font-size: 60px;
+}
+h2 {
+  font-size: 40px;
+  font-weight: 50;
+}
+.orange-highlight {
+  color: #ff8367;
+}
+p {
+  color: #3e3e3e;
+  font-family: "Roboto", sans-serif;
+  line-height: 1.6;
+}
+
+.half-width {
+  width: 40%;
+  float: left;
+  margin-left: 5%;
+  padding-left: 2%;
+}
+.half-width img {
+  width: 100%;
+}
+
+section {
+  height: 500px;
+  padding-bottom: 200px;
+}
+.link-button {
+  text-decoration: none;
+  background-image: linear-gradient(90deg, lightSalmon, tomato);
+  padding: 10px 20px;
+  border-radius: 5px;
+  color: white;
+  font-weight: 800;
+}
+#midle {
+  padding: 70px 0;
+  text-align: center;
+}
+.project {
+  background-color: #ececec;
+}
+.one-third-width {
+  width: 25%;
+  float: left;
+  margin-left: 5%;
+  padding: 1%;
+}
+.one-third-width img {
+  width: 100%;
+}
+
+.single-exp {
+  box-shadow: 10px 10px 50px gray;
+  border-radius: 15px;
+  height: 70%;
+  background-color: white;
+}
+
+#last {
+  background-image: url("pic/Foot.png");
+  background-repeat: no-repeat;
+  background-size: 906px 225px;
+  background-position: center top;
+  margin: 7% 1%;
+  height: 2%;
+}
+#last div {
+  margin-left: 25%;
+}
+.foot {
+  display: inline-block;
+  width: fit-content;
+  align-content: center;
+}
+.foot-positon {
+  text-align: center;
+  margin-bottom: 80px;
+}
+#stay {
+  font-size: 30px;
+  color: #696871;
+}
+#email {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 42px;
+  color: #363958;
+}
+.icon {
+  padding-right: 15px;
+  width: 40px;
+  height: 40px;
+}
